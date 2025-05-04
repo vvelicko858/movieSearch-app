@@ -22,7 +22,7 @@ inputSearch.addEventListener('keyup', (e) => {
         .then((movies) => movies.forEach((movie) => addMovieTolist(movie)))
         .catch((err) => {
           console.log(err)
-          alert('Неверное название фильма')
+          alert('Неверное название фильма. Введите название фильма на английском')
         })
     }
   }, 2300)
